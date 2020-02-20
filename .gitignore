@@ -151,3 +151,4 @@ $RECYCLE.BIN/
 
 venv/*
 workout_list.csv
+.vscode/settings.json
