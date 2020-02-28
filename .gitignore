@@ -152,3 +152,5 @@ $RECYCLE.BIN/
 venv/*
 workout_list.csv
 .vscode/settings.json
+DSProjects/MBTA/mbta_travel_times.csv
+DSProjects/MBTA/stops.txt
