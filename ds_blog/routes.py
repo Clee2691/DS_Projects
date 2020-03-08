@@ -1,7 +1,9 @@
-from flask import render_template, url_for
-from ds_blog import app
+from flask import render_template, url_for, redirect, flash
+from ds_blog import ds_blog_inst
 
-@app.route('/')
-@app.route('/home')
+
+@ds_blog_inst.route('/')
+@ds_blog_inst.route('/home')
 def home():
-    return render_template('home.html', title = 'Home')
+    return render_template('home.html')
+
